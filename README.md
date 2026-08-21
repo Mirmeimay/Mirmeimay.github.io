@@ -7,7 +7,7 @@ The portfolio showcases my academic projects, system development experience, tec
 ## 🌐 Portfolio
 
 **Live Website:**  
-[(https://github.com/Mirmeimay)](https://github.com/Mirmeimay)
+[[(https://github.com/Mirmeimay)](https://github.com/Mirmeimay)](https://mirmeimay.github.io/)
 
 ---
 
