@@ -1,0 +1,1515 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta name="description" content="Amir Haqem - Web Developer & Information Systems Management student at UiTM. Building modern, responsive, and functional websites and web applications.">
+  <meta name="keywords" content="Amir Haqem, Web Developer, UiTM, Frontend Developer, Responsive Web Design, CakePHP, PHP, MySQL, Portfolio, Freelance Web Developer">
+  <meta name="author" content="Mohamad Amir Haqem bin Hamdan">
+  <title>Amir Haqem | Web Developer</title>
+
+  <!-- Google Fonts -->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;500;600;700&family=JetBrains+Mono:wght@400;500;600&family=Plus+Jakarta+Sans:wght@500;600;700;800&display=swap" rel="stylesheet">
+
+  <!-- Lucide Icons -->
+  <script src="https://unpkg.com/lucide@latest"></script>
+
+  <!-- Stylesheet -->
+  <link rel="stylesheet" href="assets/css/style.css">
+</head>
+<body>
+  <!-- Background Glow & Grid Canvas -->
+  <div class="ambient-glow glow-top-left" aria-hidden="true"></div>
+  <div class="ambient-glow glow-top-right" aria-hidden="true"></div>
+  <div class="ambient-glow glow-bottom-center" aria-hidden="true"></div>
+  <div class="bg-grid-pattern" aria-hidden="true"></div>
+
+  <!-- Navigation Header -->
+  <header class="site-header" id="site-header">
+    <div class="container nav-container">
+      <a href="#hero" class="brand-logo" aria-label="Amir Haqem Home">
+        <span class="logo-box"><img src="assets/images/amir-portrait.png" alt="Amir Haqem portrait" /></span>
+        <span class="brand-name">Amir Haqem<span class="brand-dot">.</span></span>
+      </a>
+
+      <!-- Desktop Navigation -->
+      <nav class="nav-menu" id="nav-menu" aria-label="Primary Navigation">
+        <ul class="nav-list">
+          <li class="nav-item"><a href="#about" class="nav-link">About</a></li>
+          <li class="nav-item"><a href="#skills" class="nav-link">Skills</a></li>
+          <li class="nav-item"><a href="#education" class="nav-link">Education</a></li>
+          <li class="nav-item"><a href="#experience" class="nav-link">Experience</a></li>
+          <li class="nav-item"><a href="#projects" class="nav-link">Projects</a></li>
+          <li class="nav-item"><a href="#services" class="nav-link">Services</a></li>
+          <li class="nav-item"><a href="#contact" class="nav-link">Contact</a></li>
+        </ul>
+      </nav>
+
+      <!-- Nav CTA Button -->
+      <div class="nav-actions">
+        <a href="#contact" class="btn btn-sm btn-outline">
+          <span>Get in Touch</span>
+          <i data-lucide="arrow-right" class="icon-sm"></i>
+        </a>
+
+        <!-- Mobile Menu Toggle Button -->
+        <button class="menu-toggle" id="menu-toggle" aria-label="Toggle navigation menu" aria-expanded="false" aria-controls="mobile-nav">
+          <span class="bar bar-1"></span>
+          <span class="bar bar-2"></span>
+          <span class="bar bar-3"></span>
+        </button>
+      </div>
+    </div>
+
+    <!-- Mobile Navigation Drawer -->
+    <div class="mobile-nav" id="mobile-nav" aria-hidden="true">
+      <div class="mobile-nav-content">
+        <ul class="mobile-nav-list">
+          <li><a href="#about" class="mobile-nav-link"><i data-lucide="user" class="icon-sm"></i> About</a></li>
+          <li><a href="#skills" class="mobile-nav-link"><i data-lucide="code-2" class="icon-sm"></i> Skills</a></li>
+          <li><a href="#education" class="mobile-nav-link"><i data-lucide="graduation-cap" class="icon-sm"></i> Education</a></li>
+          <li><a href="#experience" class="mobile-nav-link"><i data-lucide="briefcase" class="icon-sm"></i> Experience</a></li>
+          <li><a href="#projects" class="mobile-nav-link"><i data-lucide="folder-git-2" class="icon-sm"></i> Projects</a></li>
+          <li><a href="#services" class="mobile-nav-link"><i data-lucide="layers" class="icon-sm"></i> Services</a></li>
+          <li><a href="#contact" class="mobile-nav-link"><i data-lucide="send" class="icon-sm"></i> Contact</a></li>
+        </ul>
+        <div class="mobile-nav-footer">
+          <a href="#contact" class="btn btn-primary btn-block">
+            <span>Discuss a Project</span>
+            <i data-lucide="message-square" class="icon-sm"></i>
+          </a>
+        </div>
+      </div>
+    </div>
+  </header>
+
+  <main>
+    <!-- HERO SECTION -->
+    <section class="hero-section" id="hero">
+      <div class="container hero-container">
+        <div class="hero-content">
+          <!-- Availability Badge -->
+          <div class="status-badge-wrapper">
+            <div class="status-badge">
+              <span class="status-indicator">
+                <span class="status-dot"></span>
+                <span class="status-ping"></span>
+              </span>
+              <span class="status-text">Open to Internship &amp; Freelance Opportunities</span>
+            </div>
+          </div>
+
+          <!-- Hero Headings -->
+          <div class="hero-titles">
+            <h2 class="hero-greeting">Hello, I'm</h2>
+            <h1 class="hero-name">AMIR HAQEM</h1>
+            <div class="hero-role-wrapper">
+              <span class="hero-role-badge">Information Management Student &amp; Web Developer</span>
+            </div>
+          </div>
+
+          <!-- Hero Short Description -->
+          <p class="hero-description">
+            Information Management student and web developer building responsive websites and practical digital solutions. I am currently open to internship opportunities and suitable freelance web-development projects.
+          </p>
+
+          <!-- Core Focus Tags -->
+          <div class="hero-tags">
+            <span class="tag"><i data-lucide="layout" class="icon-xs"></i> Web Development</span>
+            <span class="tag"><i data-lucide="database" class="icon-xs"></i> Information Systems</span>
+            <span class="tag"><i data-lucide="bar-chart-3" class="icon-xs"></i> Data Visualization</span>
+          </div>
+
+          <!-- Hero Action Buttons -->
+          <div class="hero-actions">
+            <a href="#projects" class="btn btn-primary btn-lg">
+              <span>View My Projects</span>
+              <i data-lucide="arrow-down-right" class="icon-md"></i>
+            </a>
+            <a href="#contact" class="btn btn-secondary btn-lg">
+              <span>Let's Work Together</span>
+              <i data-lucide="mail" class="icon-md"></i>
+            </a>
+          </div>
+
+          <!-- University Status Note -->
+          <div class="hero-student-meta">
+            <i data-lucide="info" class="icon-xs meta-icon"></i>
+            <span>Information Management student at Universiti Teknologi MARA (UiTM) with practical experience in web and system development.</span>
+          </div>
+        </div>
+
+        <!-- Hero Visual: Modern Web Development Laptop & Code Preview -->
+        <div class="hero-visual">
+          <div class="device-mockup-wrapper">
+            <div class="glow-orb" aria-hidden="true"></div>
+            
+            <!-- Laptop Device Mockup -->
+            <div class="laptop-mockup">
+              <!-- Laptop Top Bar / Webcam -->
+              <div class="laptop-bezel">
+                <div class="camera-dot"></div>
+              </div>
+              
+              <!-- Laptop Screen -->
+              <div class="laptop-screen">
+                <!-- Browser Window Chrome -->
+                <div class="browser-header">
+                  <div class="browser-controls">
+                    <span class="dot dot-red"></span>
+                    <span class="dot dot-yellow"></span>
+                    <span class="dot dot-green"></span>
+                  </div>
+                  <div class="browser-address">
+                    <i data-lucide="lock" class="icon-xs"></i>
+                    <span>https://amirhaqem.dev/preview</span>
+                  </div>
+                  <div class="browser-actions">
+                    <span class="badge-live">LIVE</span>
+                  </div>
+                </div>
+
+                <!-- Browser Body / Web Interface Mockup -->
+                <div class="browser-body">
+                  <!-- Split View: Mock UI & Clean Code Snippet -->
+                  <div class="code-preview-grid">
+                    <!-- Left: Interactive Web UI Card -->
+                    <div class="preview-ui-panel">
+                      <div class="preview-nav">
+                        <div class="preview-brand"></div>
+                        <div class="preview-links">
+                          <span></span><span></span><span></span>
+                        </div>
+                      </div>
+                      <div class="preview-hero">
+                        <div class="preview-pill">Responsive Design</div>
+                        <div class="preview-heading">Modern Web Platform</div>
+                        <div class="preview-text"></div>
+                        <div class="preview-btn"></div>
+                      </div>
+                      <div class="preview-cards-row">
+                        <div class="preview-mini-card active">
+                          <i data-lucide="cpu" class="icon-xs mini-icon"></i>
+                          <span>CakePHP & PHP</span>
+                        </div>
+                        <div class="preview-mini-card">
+                          <i data-lucide="database" class="icon-xs mini-icon"></i>
+                          <span>MySQL DB</span>
+                        </div>
+                        <div class="preview-mini-card">
+                          <i data-lucide="smartphone" class="icon-xs mini-icon"></i>
+                          <span>Mobile Ready</span>
+                        </div>
+                      </div>
+                    </div>
+
+                    <!-- Right: Live Code Terminal -->
+                    <div class="preview-code-panel">
+                      <div class="terminal-header">
+                        <span class="tab-label"><i data-lucide="file-code" class="icon-xs"></i> developer.js</span>
+                      </div>
+                      <pre class="code-block"><code><span class="c-keyword">const</span> <span class="c-var">developer</span> = {
+  <span class="c-prop">name</span>: <span class="c-string">"Amir Haqem"</span>,
+  <span class="c-prop">role</span>: <span class="c-string">"Web Developer"</span>,
+  <span class="c-prop">education</span>: <span class="c-string">"UiTM ISM"</span>,
+  <span class="c-prop">focus</span>: [
+    <span class="c-string">"Web Development"</span>,
+    <span class="c-string">"Databases"</span>,
+    <span class="c-string">"UI/UX Design"</span>
+  ],
+  <span class="c-prop">status</span>: <span class="c-string">"Open for Projects"</span>
+};
+
+<span class="c-comment">// Delivering clean web solutions</span>
+<span class="c-function">buildResponsiveWeb</span>(<span class="c-var">developer</span>);</code></pre>
+                    </div>
+                  </div>
+                </div>
+              </div>
+
+              <!-- Laptop Base / Keyboard deck -->
+              <div class="laptop-base">
+                <div class="laptop-notch"></div>
+              </div>
+            </div>
+
+            <!-- Floating Tech Badges -->
+            <div class="floating-badge badge-top">
+              <i data-lucide="code" class="icon-sm badge-icon-blue"></i>
+              <div>
+                <div class="badge-title">Semantic Code</div>
+                <div class="badge-sub">HTML • CSS • JS</div>
+              </div>
+            </div>
+
+            <div class="floating-badge badge-bottom">
+              <i data-lucide="server" class="icon-sm badge-icon-purple"></i>
+              <div>
+                <div class="badge-title">Database & Backend</div>
+                <div class="badge-sub">CakePHP • MySQL</div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- ABOUT SECTION -->
+    <section class="section about-section" id="about">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">BACKGROUND & PHILOSOPHY</span>
+          <h2 class="section-title">About Me</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="about-grid">
+          <!-- Left Column: Biography & Background -->
+          <div class="about-card main-bio-card">
+            <div class="bio-header">
+              <div class="bio-avatar-box">
+                <img src="assets/images/amir-portrait.png" alt="Amir Haqem" loading="lazy" />
+              </div>
+              <div class="bio-identity">
+                <h3 class="bio-name">Mohamad Amir Haqem bin Hamdan</h3>
+                <p class="bio-role">Web Developer & Information Systems Management Student</p>
+                <p class="bio-institution"><i data-lucide="building" class="icon-xs"></i> Universiti Teknologi MARA (UiTM)</p>
+              </div>
+            </div>
+
+            <div class="bio-content">
+              <p class="bio-paragraph">
+                I am an <strong>Information Management student at Universiti Teknologi MARA (UiTM)</strong> with a growing interest in <strong>web development, UI/UX, and practical digital solutions</strong>.
+              </p>
+              <p class="bio-paragraph">
+                My experience comes from academic and personal projects where I have worked on <strong>responsive website development, system design, database-driven interfaces, and user-focused implementation</strong>. I enjoy translating requirements into clear, functional, and visually consistent experiences.
+              </p>
+              <p class="bio-paragraph">
+                I am currently looking for <strong>internship opportunities</strong> and am also open to <strong>suitable freelance web-development projects</strong> that allow me to contribute to real-world digital products and small business needs.
+              </p>
+            </div>
+
+            <!-- Professional Interests -->
+            <div class="interests-container">
+              <h4 class="interests-title">Core Areas of Interest</h4>
+              <div class="interests-grid">
+                <div class="interest-item">
+                  <div class="interest-icon-box">
+                    <i data-lucide="globe" class="icon-sm"></i>
+                  </div>
+                  <div>
+                    <span class="interest-name">Web Development</span>
+                    <span class="interest-desc">Responsive layouts, clean code & functional interfaces</span>
+                  </div>
+                </div>
+
+                <div class="interest-item">
+                  <div class="interest-icon-box">
+                    <i data-lucide="layers" class="icon-sm"></i>
+                  </div>
+                  <div>
+                    <span class="interest-name">Information Systems</span>
+                    <span class="interest-desc">Data organization, system workflows & database modeling</span>
+                  </div>
+                </div>
+
+                <div class="interest-item">
+                  <div class="interest-icon-box">
+                    <i data-lucide="pie-chart" class="icon-sm"></i>
+                  </div>
+                  <div>
+                    <span class="interest-name">Data Visualization</span>
+                    <span class="interest-desc">Visual reporting, data clarity & Tableau dashboards</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+          </div>
+
+          <!-- Right Column: Approach, Languages & Highlights -->
+          <div class="about-sidebar">
+            <!-- Academic & Practical Approach Card -->
+            <div class="about-card approach-card">
+              <h3 class="card-heading"><i data-lucide="compass" class="icon-sm heading-icon"></i> Development Approach</h3>
+              <ul class="approach-list">
+                <li>
+                  <div class="approach-icon"><i data-lucide="check-circle" class="icon-xs"></i></div>
+                  <div>
+                    <strong>User-Centered UI/UX</strong>
+                    <p>Clear navigation, logical hierarchy, and consistent visual layouts.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="approach-icon"><i data-lucide="check-circle" class="icon-xs"></i></div>
+                  <div>
+                    <strong>Structured Data Management</strong>
+                    <p>Proper database relational modeling and clean data integration using MySQL.</p>
+                  </div>
+                </li>
+                <li>
+                  <div class="approach-icon"><i data-lucide="check-circle" class="icon-xs"></i></div>
+                  <div>
+                    <strong>Systematic Troubleshooting</strong>
+                    <p>Methodical debugging of template, controller, and database interactions.</p>
+                  </div>
+                </li>
+              </ul>
+            </div>
+
+            <!-- Languages Card -->
+            <div class="about-card languages-card">
+              <h3 class="card-heading"><i data-lucide="languages" class="icon-sm heading-icon"></i> Languages</h3>
+              <div class="languages-list">
+                <div class="language-row">
+                  <div class="lang-info">
+                    <span class="lang-name">Bahasa Melayu</span>
+                    <span class="lang-level">Native Proficiency</span>
+                  </div>
+                  <div class="lang-badge">Native</div>
+                </div>
+                <div class="language-row">
+                  <div class="lang-info">
+                    <span class="lang-name">English</span>
+                    <span class="lang-level">Professional Working Proficiency</span>
+                  </div>
+                  <div class="lang-badge">Working</div>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="availability-panel" aria-label="Current availability">
+          <div class="availability-header">
+            <span class="availability-kicker">Current Availability</span>
+            <h3>Currently Open To</h3>
+          </div>
+          <ul class="availability-list">
+            <li><i data-lucide="check-circle-2" class="icon-xs"></i> Internship Opportunities</li>
+            <li><i data-lucide="check-circle-2" class="icon-xs"></i> Freelance Web Projects</li>
+            <li><i data-lucide="check-circle-2" class="icon-xs"></i> Student / Academic Collaborations</li>
+            <li><i data-lucide="check-circle-2" class="icon-xs"></i> Web Development Projects</li>
+          </ul>
+        </div>
+      </div>
+    </section>
+
+    <!-- SKILLS SECTION -->
+    <section class="section skills-section" id="skills">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">CAPABILITIES & TOOLSET</span>
+          <h2 class="section-title">Technical & Soft Skills</h2>
+          <div class="title-underline"></div>
+          <p class="section-intro">
+            Practical skills developed through academic projects, system work, and hands-on implementation in web development and information management.
+          </p>
+        </div>
+
+        <div class="skills-main-grid">
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon-box cat-blue">
+                <i data-lucide="code" class="icon-md"></i>
+              </div>
+              <h3 class="category-title">Web Development</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <span class="skill-name">HTML</span>
+                <span class="skill-tag">Hands-on</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">CSS</span>
+                <span class="skill-tag">Hands-on</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">JavaScript</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Responsive Web Design</span>
+                <span class="skill-tag">Working Knowledge</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Web Application Development</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon-box cat-purple">
+                <i data-lucide="server" class="icon-md"></i>
+              </div>
+              <h3 class="category-title">Back-End & System Development</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <span class="skill-name">PHP</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">CakePHP</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">MVC Architecture</span>
+                <span class="skill-tag">Working Knowledge</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">CRUD Application Development</span>
+                <span class="skill-tag">Hands-on</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">System Development</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon-box cat-cyan">
+                <i data-lucide="database" class="icon-md"></i>
+              </div>
+              <h3 class="category-title">Database & Data</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <span class="skill-name">MySQL</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">SQL</span>
+                <span class="skill-tag">Working Knowledge</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Database Design</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Data Management</span>
+                <span class="skill-tag">Hands-on</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Microsoft Excel</span>
+                <span class="skill-tag">Practical Use</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon-box cat-amber">
+                <i data-lucide="palette" class="icon-md"></i>
+              </div>
+              <h3 class="category-title">UI / UX</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <span class="skill-name">Responsive Interface Design</span>
+                <span class="skill-tag">Hands-on</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">UI Design</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">User-Focused Interface Design</span>
+                <span class="skill-tag">Hands-on</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Website Layout &amp; Visual Design</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon-box cat-green">
+                <i data-lucide="wrench" class="icon-md"></i>
+              </div>
+              <h3 class="category-title">Tools &amp; Development</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <span class="skill-name">Git</span>
+                <span class="skill-tag">Working Knowledge</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">GitHub</span>
+                <span class="skill-tag">Project Use</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Visual Studio Code</span>
+                <span class="skill-tag">Primary Tool</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Debugging &amp; Testing</span>
+                <span class="skill-tag">Hands-on</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="skill-category-card">
+            <div class="category-header">
+              <div class="cat-icon-box cat-red">
+                <i data-lucide="bar-chart-3" class="icon-md"></i>
+              </div>
+              <h3 class="category-title">Information Management</h3>
+            </div>
+            <div class="skills-pill-group">
+              <div class="skill-pill">
+                <span class="skill-name">Information Systems</span>
+                <span class="skill-tag">Academic Focus</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Requirements Analysis</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">System Analysis</span>
+                <span class="skill-tag">Project Experience</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Information Organization</span>
+                <span class="skill-tag">Practical Use</span>
+              </div>
+              <div class="skill-pill">
+                <span class="skill-name">Dashboard &amp; Data Visualization</span>
+                <span class="skill-tag">Academic Use</span>
+              </div>
+            </div>
+          </div>
+        </div>
+
+        <div class="soft-skills-container">
+          <div class="soft-skills-header">
+            <i data-lucide="sparkles" class="icon-sm soft-icon"></i>
+            <h3 class="soft-skills-title">Professional & Collaborative Soft Skills</h3>
+          </div>
+          <div class="soft-skills-grid">
+            <div class="soft-skill-chip">
+              <i data-lucide="message-circle" class="icon-xs"></i>
+              <span>Communication</span>
+            </div>
+            <div class="soft-skill-chip">
+              <i data-lucide="lightbulb" class="icon-xs"></i>
+              <span>Problem Solving</span>
+            </div>
+            <div class="soft-skill-chip">
+              <i data-lucide="users" class="icon-xs"></i>
+              <span>Teamwork</span>
+            </div>
+            <div class="soft-skill-chip">
+              <i data-lucide="clock" class="icon-xs"></i>
+              <span>Time Management</span>
+            </div>
+            <div class="soft-skill-chip">
+              <i data-lucide="refresh-cw" class="icon-xs"></i>
+              <span>Adaptability</span>
+            </div>
+            <div class="soft-skill-chip">
+              <i data-lucide="shield-check" class="icon-xs"></i>
+              <span>Collaboration</span>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EDUCATION SECTION (STRICTLY 2 ENTRIES - NO SPM) -->
+    <section class="section education-section" id="education">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">ACADEMIC BACKGROUND</span>
+          <h2 class="section-title">Education</h2>
+          <div class="title-underline"></div>
+          <p class="section-intro">
+            Higher education qualifications in Information Science and Systems Management at Universiti Teknologi MARA (UiTM).
+          </p>
+        </div>
+
+        <div class="timeline-container">
+          <!-- Timeline Entry 1: Bachelor's Degree -->
+          <div class="timeline-card">
+            <div class="timeline-marker">
+              <div class="timeline-dot current-study"></div>
+              <div class="timeline-line"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header-row">
+                <div class="degree-meta">
+                  <span class="degree-badge">Bachelor's Degree</span>
+                  <span class="degree-status">Ongoing</span>
+                </div>
+                <div class="timeline-year"><i data-lucide="calendar" class="icon-xs"></i> 2025 – Present</div>
+              </div>
+
+              <h3 class="timeline-degree">Bachelor of Information Science (Hons.) Information Systems Management</h3>
+              <h4 class="timeline-institution"><i data-lucide="map-pin" class="icon-xs"></i> Universiti Teknologi MARA (UiTM)</h4>
+              
+              <div class="gpa-badge">
+                <span class="gpa-label">Current GPA:</span>
+                <span class="gpa-val">3.59</span>
+              </div>
+
+              <div class="relevant-areas-wrapper">
+                <h5 class="areas-title">Relevant Academic Areas:</h5>
+                <ul class="areas-list">
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Web Design and Development</li>
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Database Management Systems</li>
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Information Systems Analysis and Design</li>
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Information Technology Infrastructure</li>
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Project Management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+
+          <!-- Timeline Entry 2: Diploma -->
+          <div class="timeline-card">
+            <div class="timeline-marker">
+              <div class="timeline-dot"></div>
+            </div>
+            <div class="timeline-content">
+              <div class="timeline-header-row">
+                <div class="degree-meta">
+                  <span class="degree-badge">Diploma</span>
+                  <span class="degree-status completed">Completed</span>
+                </div>
+                <div class="timeline-year"><i data-lucide="calendar" class="icon-xs"></i> 2022 – 2025</div>
+              </div>
+
+              <h3 class="timeline-degree">Diploma in Information Management</h3>
+              <h4 class="timeline-institution"><i data-lucide="map-pin" class="icon-xs"></i> Universiti Teknologi MARA (UiTM)</h4>
+              
+              <div class="gpa-badge">
+                <span class="gpa-label">Current GPA:</span>
+                <span class="gpa-val">3.36</span>
+              </div>
+
+              <div class="relevant-areas-wrapper">
+                <h5 class="areas-title">Relevant Academic Areas:</h5>
+                <ul class="areas-list">
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Web Design and Development</li>
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Database Management Systems</li>
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Information Systems Analysis and Design</li>
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Information Technology Infrastructure</li>
+                  <li><i data-lucide="chevron-right" class="icon-xs"></i> Project Management</li>
+                </ul>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- EXPERIENCE SECTION -->
+    <section class="section experience-section" id="experience">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">PRACTICAL EXPERIENCE</span>
+          <h2 class="section-title">Work & Internship Experience</h2>
+          <div class="title-underline"></div>
+        </div>
+
+        <div class="experience-card-wrapper">
+          <div class="experience-card">
+            <div class="exp-header">
+              <div class="exp-role-info">
+                <div class="exp-icon-box">
+                  <i data-lucide="briefcase" class="icon-md"></i>
+                </div>
+                <div>
+                  <h3 class="exp-title">Intern – School Management Department</h3>
+                  <h4 class="exp-company">Pejabat Pendidikan Daerah Kluang</h4>
+                </div>
+              </div>
+              <div class="exp-duration-badge">
+                <i data-lucide="calendar" class="icon-xs"></i>
+                <span>2 months internship | 2024</span>
+              </div>
+            </div>
+
+            <div class="exp-body">
+              <h5 class="resp-heading">Key Responsibilities & Contributions:</h5>
+              <ul class="resp-list">
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Handled document management, file organization, and administrative record-keeping to support daily departmental operations.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Supported school-related administrative processes by organizing documents and maintaining accurate information flow.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Updated website content and prepared information for publication to ensure relevant information remained clear and accessible.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Worked with Microsoft Excel and office documentation tools to organize data, support reporting, and assist with information preparation.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Contributed to administrative information workflows by validating records, identifying inaccurate or incomplete data, and improving document organization.</span>
+                </li>
+              </ul>
+
+              <div class="exp-skills-tags">
+                <span class="tag-sm">Document Management</span>
+                <span class="tag-sm">Data Organization</span>
+                <span class="tag-sm">Website Content Updates</span>
+                <span class="tag-sm">Microsoft Excel</span>
+                <span class="tag-sm">Administrative Systems</span>
+                <span class="tag-sm">Problem Solving</span>
+              </div>
+            </div>
+          </div>
+
+          <div class="experience-card">
+            <div class="exp-header">
+              <div class="exp-role-info">
+                <div class="exp-icon-box">
+                  <i data-lucide="folder-git-2" class="icon-md"></i>
+                </div>
+                <div>
+                  <h3 class="exp-title">Project Contributor – Academic &amp; Capstone Work</h3>
+                  <h4 class="exp-company">UiTM | System Development &amp; Web Projects</h4>
+                </div>
+              </div>
+              <div class="exp-duration-badge">
+                <i data-lucide="calendar" class="icon-xs"></i>
+                <span>2024 – 2026</span>
+              </div>
+            </div>
+
+            <div class="exp-body">
+              <h5 class="resp-heading">Academic Project Experience:</h5>
+              <ul class="resp-list">
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Developed and contributed to academic web and information-system projects involving UI design, database-driven functionality, and user-centered interfaces.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Implemented CRUD-based workflows, data management features, and responsive interface layouts in project work across different course modules.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Collaborated on requirements analysis, workflow design, testing, debugging, and feature refinement for system-based applications.</span>
+                </li>
+                <li>
+                  <i data-lucide="check-circle-2" class="icon-sm list-bullet"></i>
+                  <span>Worked on projects including Medicare Pro, XAI Pantry, and STAMPASS to strengthen practical skills in system development, information management, and problem solving.</span>
+                </li>
+              </ul>
+
+              <div class="exp-skills-tags">
+                <span class="tag-sm">Web Development</span>
+                <span class="tag-sm">System Development</span>
+                <span class="tag-sm">UI/UX</span>
+                <span class="tag-sm">CRUD Development</span>
+                <span class="tag-sm">Testing &amp; Debugging</span>
+                <span class="tag-sm">Requirements Analysis</span>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- PROJECTS SECTION -->
+    <section class="section projects-section" id="projects">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">PORTFOLIO SHOWCASE</span>
+          <h2 class="section-title">Featured Projects</h2>
+          <div class="title-underline"></div>
+          <p class="section-intro">
+            Projects reflecting my practical work in web development, system development, UI/UX, information management, and problem solving.
+          </p>
+        </div>
+
+        <div class="projects-grid">
+          <!-- Project 1: Medicare Pro (PRIMARY FEATURED PROJECT) -->
+          <article class="project-card featured-project-showcase">
+            <div class="featured-badge-banner">
+              <span class="featured-ribbon-tag"><i data-lucide="star" class="icon-xs"></i> FEATURED WEB APPLICATION</span>
+              <span class="project-academic-tag"><i data-lucide="graduation-cap" class="icon-xs"></i> Academic Project | UiTM | 2026</span>
+            </div>
+            
+            <div class="featured-project-header">
+              <h3 class="featured-project-title">Medicare Pro — Clinic Management System</h3>
+              <p class="featured-project-lead">
+                A database-driven clinic management web application developed to support core clinic operations including patient management, appointments, medical records, prescriptions, medicine inventory, payments, and reporting.
+              </p>
+
+              <!-- Verified Technology Stack -->
+              <div class="verified-tech-stack">
+                <span class="tech-badge-primary"><i data-lucide="code-2" class="icon-xs"></i> PHP 8.2+</span>
+                <span class="tech-badge-primary"><i data-lucide="layers" class="icon-xs"></i> CakePHP 5.3 (MVC)</span>
+                <span class="tech-badge-primary"><i data-lucide="database" class="icon-xs"></i> MySQL Database</span>
+                <span class="tech-badge-sub"><i data-lucide="file-code" class="icon-xs"></i> HTML5</span>
+                <span class="tech-badge-sub"><i data-lucide="palette" class="icon-xs"></i> CSS3</span>
+                <span class="tech-badge-sub"><i data-lucide="braces" class="icon-xs"></i> JavaScript</span>
+              </div>
+            </div>
+
+            <!-- Sanitized Medicare Pro Interface Gallery -->
+            <div class="project-gallery-section">
+              <div class="gallery-header">
+                <h4 class="gallery-title"><i data-lucide="layout" class="icon-xs"></i> System Interface Views (Screenshots)</h4>
+                <span class="gallery-note"><i data-lucide="shield-check" class="icon-xs"></i> Sanitized demo screenshots</span>
+              </div>
+              <p class="gallery-privacy-note"><i data-lucide="lock-keyhole" class="icon-xs"></i> These screenshots use fictional demo data. Sensitive-looking patient and clinical information has been redacted.</p>
+              <div class="screenshot-gallery-grid">
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/medicare-pro/dashboard-safe.png" data-caption="Main Dashboard" aria-label="Enlarge Main Dashboard screenshot"><img src="assets/images/medicare-pro/dashboard-safe.png" alt="Medicare Pro main dashboard interface with redacted demo areas" loading="lazy"></button>
+                  <figcaption><strong>Main Dashboard</strong><span>Clinic operations dashboard with KPI summaries, patient activity, revenue trends, diagnoses, patient queue, and system alerts.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/medicare-pro/patient-management-safe.png" data-caption="Patient Management" aria-label="Enlarge Patient Management screenshot"><img src="assets/images/medicare-pro/patient-management-safe.png" alt="Medicare Pro patient management interface with redacted demo records" loading="lazy"></button>
+                  <figcaption><strong>Patient Management</strong><span>Patient record management with search, filtering, patient status, and record actions.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/medicare-pro/appointments-safe.png" data-caption="Appointment Workflow" aria-label="Enlarge Appointment Workflow screenshot"><img src="assets/images/medicare-pro/appointments-safe.png" alt="Medicare Pro appointment workflow interface with redacted demo records" loading="lazy"></button>
+                  <figcaption><strong>Appointment Workflow</strong><span>Appointment scheduling and workflow management with doctor assignment, patient status, and visit actions.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/medicare-pro/medical-records-safe.png" data-caption="Electronic Medical Records" aria-label="Enlarge Electronic Medical Records screenshot"><img src="assets/images/medicare-pro/medical-records-safe.png" alt="Medicare Pro electronic medical records interface with sensitive demo areas redacted" loading="lazy"></button>
+                  <figcaption><strong>Electronic Medical Records</strong><span>Patient medical history interface showing vitals, diagnoses, medications, visit history, and clinical information.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/medicare-pro/medicine-inventory-safe.png" data-caption="Medicine Inventory" aria-label="Enlarge Medicine Inventory screenshot"><img src="assets/images/medicare-pro/medicine-inventory-safe.png" alt="Medicare Pro medicine inventory interface" loading="lazy"></button>
+                  <figcaption><strong>Medicine Inventory</strong><span>Medicine inventory management with stock levels, minimum stock thresholds, pricing, expiry information, suppliers, and availability.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/medicare-pro/billing-payments-safe.png" data-caption="Billing &amp; Payments" aria-label="Enlarge Billing and Payments screenshot"><img src="assets/images/medicare-pro/billing-payments-safe.png" alt="Medicare Pro billing and payment interface with redacted demo records" loading="lazy"></button>
+                  <figcaption><strong>Billing &amp; Payments</strong><span>Billing and payment management with invoices, payment status, revenue information, and billing records.</span></figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <!-- Verified Core Functionalities -->
+            <div class="project-features-breakdown">
+              <h4 class="breakdown-heading"><i data-lucide="check-square" class="icon-xs"></i> Verified System Functionality</h4>
+              
+              <div class="modules-accordion-grid">
+                <div class="module-feature-card">
+                  <div class="mod-icon-title">
+                    <span class="mod-num">01</span>
+                    <strong>Patient Management</strong>
+                  </div>
+                  <p>Patient records with search, filtering, status management, and links to related medical records.</p>
+                </div>
+
+                <div class="module-feature-card">
+                  <div class="mod-icon-title">
+                    <span class="mod-num">02</span>
+                    <strong>Appointment Management</strong>
+                  </div>
+                  <p>Appointment creation and editing, doctor assignment, and status workflow management from scheduling through completion or cancellation.</p>
+                </div>
+
+                <div class="module-feature-card">
+                  <div class="mod-icon-title">
+                    <span class="mod-num">03</span>
+                    <strong>Electronic Medical Records</strong>
+                  </div>
+                  <p>Patient-linked records for symptoms, diagnoses, treatment, vital information, visit history, and prescription information.</p>
+                </div>
+
+                <div class="module-feature-card">
+                  <div class="mod-icon-title">
+                    <span class="mod-num">04</span>
+                    <strong>Prescription &amp; Inventory</strong>
+                  </div>
+                  <p>Prescription item management, medicine selection, quantity tracking, dispensing status, and inventory stock updates.</p>
+                </div>
+
+                <div class="module-feature-card">
+                  <div class="mod-icon-title">
+                    <span class="mod-num">05</span>
+                    <strong>Billing &amp; Payments</strong>
+                  </div>
+                  <p>Billing records, payment methods, invoice searching, discount calculations, and payment viewing.</p>
+                </div>
+
+                <div class="module-feature-card">
+                  <div class="mod-icon-title">
+                    <span class="mod-num">06</span>
+                    <strong>Dashboard &amp; Reporting</strong>
+                  </div>
+                  <p>Dashboard KPI information for patients, inventory, and revenue, with daily, weekly, and monthly period views.</p>
+                </div>
+              </div>
+            </div>
+
+            <!-- Technical Highlights & Database Architecture -->
+            <div class="technical-highlights-box">
+              <h4 class="tech-box-title"><i data-lucide="cpu" class="icon-xs"></i> Technical Architecture & Engineering Highlights</h4>
+              <p class="tech-box-intro">
+                Medicare Pro is a fully database-driven web application built with structured MVC principles rather than static pages.
+              </p>
+              <ul class="tech-highlights-list">
+                <li><i data-lucide="check" class="icon-xs"></i> <strong>MVC Architecture (CakePHP):</strong> Structured separation of Controllers, Models/Entities, and CakePHP Templates.</li>
+                <li><i data-lucide="check" class="icon-xs"></i> <strong>Relational Database Modeling:</strong> Interconnected MySQL database schemas linking patients, medical records, prescriptions, medicines, appointments, and payments.</li>
+                <li><i data-lucide="check" class="icon-xs"></i> <strong>Transactional Data Updates:</strong> Automated medication inventory deduction upon prescription issuance.</li>
+                <li><i data-lucide="check" class="icon-xs"></i> <strong>Security & Sessions:</strong> Secure session-based user authentication and role-based interface authorization.</li>
+                <li><i data-lucide="check" class="icon-xs"></i> <strong>Debugging & Diagnosis:</strong> Troubleshooting of controller actions, template rendering, query performance, and system logic.</li>
+              </ul>
+            </div>
+
+            <!-- My Contribution Section -->
+            <div class="contribution-box">
+              <div class="contribution-header">
+                <i data-lucide="user-check" class="icon-sm contrib-icon"></i>
+                <h4 class="contribution-title">My Contribution</h4>
+              </div>
+              <p class="contribution-quote">
+                "Designed and refined user interfaces for the clinic management system and contributed to system development, debugging, testing, and functional improvements."
+              </p>
+              <div class="contribution-points-grid">
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> UI/UX refinement & user interface development</div>
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> Navigation flow & information organization</div>
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> Working with CakePHP controllers, templates & DB interactions</div>
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> Testing system modules & improving usability/consistency</div>
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> Debugging, troubleshooting & collaborative problem-solving</div>
+              </div>
+            </div>
+
+            <!-- Project Actions -->
+            <div class="featured-project-actions">
+              <button class="btn btn-primary btn-lg open-modal-btn" data-project="medicare">
+                <span>View Project Details</span>
+                <i data-lucide="layers" class="icon-sm"></i>
+              </button>
+              <a class="btn btn-secondary btn-lg" href="https://github.com/Mirmeimay/clinic-management-system" target="_blank" rel="noopener noreferrer">
+                <i data-lucide="github" class="icon-sm"></i>
+                <span>View GitHub Repository</span>
+              </a>
+            </div>
+          </article>
+
+          <!-- Project 2: XAI Pantry (Secondary Capstone Showcase) -->
+          <article class="project-card xai-project-showcase">
+            <div class="featured-badge-banner">
+              <span class="xai-ribbon-tag"><i data-lucide="sparkles" class="icon-xs"></i> CAPSTONE WEB APPLICATION</span>
+              <span class="project-academic-tag"><i data-lucide="graduation-cap" class="icon-xs"></i> Capstone Project | UiTM | 2026</span>
+            </div>
+
+            <div class="featured-project-header">
+              <h3 class="featured-project-title">XAI Pantry — AI Meal Planner</h3>
+              <p class="featured-project-lead">An explainable-AI pantry tracker and meal planner designed to help users manage pantry ingredients, track expiry dates, receive personalised meal recommendations, reduce food waste, and manage shopping needs.</p>
+              <div class="verified-tech-stack">
+                <span class="tech-badge-primary"><i data-lucide="file-code" class="icon-xs"></i> HTML</span>
+                <span class="tech-badge-primary"><i data-lucide="palette" class="icon-xs"></i> CSS</span>
+                <span class="tech-badge-primary"><i data-lucide="braces" class="icon-xs"></i> JavaScript</span>
+                <span class="tech-badge-sub"><i data-lucide="database" class="icon-xs"></i> localStorage</span>
+                <span class="tech-badge-sub"><i data-lucide="sparkles" class="icon-xs"></i> Rule-Based Recommendation Logic</span>
+                <span class="tech-badge-sub"><i data-lucide="monitor-smartphone" class="icon-xs"></i> Responsive Web Design</span>
+              </div>
+            </div>
+
+            <div class="project-gallery-section">
+              <div class="gallery-header">
+                <h4 class="gallery-title"><i data-lucide="images" class="icon-xs"></i> Application Interface Showcase</h4>
+                <span class="gallery-note">Five provided application views</span>
+              </div>
+              <div class="screenshot-gallery-grid xai-screenshot-gallery">
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/xai-pantry/ai-meal-recommendation.png" data-caption="AI Meal Recommendation" aria-label="Enlarge AI Meal Recommendation screenshot"><img src="assets/images/xai-pantry/ai-meal-recommendation.png" alt="XAI Pantry AI meal recommendation interface" loading="lazy"></button>
+                  <figcaption><strong>AI Meal Recommendation</strong><span>Personalised meal recommendations ranked by pantry match, expiry considerations, dietary preferences, allergies, cuisine, meal type, and cooking time.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/xai-pantry/recipe-details.png" data-caption="Explainable Recipe Details" aria-label="Enlarge Explainable Recipe Details screenshot"><img src="assets/images/xai-pantry/recipe-details.png" alt="XAI Pantry explainable recipe details interface" loading="lazy"></button>
+                  <figcaption><strong>Explainable Recipe Details</strong><span>Each recommendation provides a clear explanation of why the recipe was selected, including pantry ingredient matching and expiry-aware reasoning.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/xai-pantry/dashboard.png" data-caption="Application Dashboard" aria-label="Enlarge Application Dashboard screenshot"><img src="assets/images/xai-pantry/dashboard.png" alt="XAI Pantry application dashboard" loading="lazy"></button>
+                  <figcaption><strong>Application Dashboard</strong><span>A centralised overview of pantry items, expiring ingredients, expired items, meal recommendations, pantry utilisation, and notifications.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/xai-pantry/pantry-inventory.png" data-caption="Pantry Inventory" aria-label="Enlarge Pantry Inventory screenshot"><img src="assets/images/xai-pantry/pantry-inventory.png" alt="XAI Pantry pantry inventory interface" loading="lazy"></button>
+                  <figcaption><strong>Pantry Inventory</strong><span>Ingredient inventory management with quantities, categories, storage locations, expiry dates, status tracking, search, filtering, editing, and deletion.</span></figcaption>
+                </figure>
+                <figure class="screenshot-gallery-card">
+                  <button class="screenshot-preview" type="button" data-screenshot="assets/images/xai-pantry/shopping-list.png" data-caption="Shopping List" aria-label="Enlarge Shopping List screenshot"><img src="assets/images/xai-pantry/shopping-list.png" alt="XAI Pantry shopping list interface" loading="lazy"></button>
+                  <figcaption><strong>Shopping List</strong><span>A practical shopping list interface for managing required ingredients, tracking completed items, and monitoring shopping progress.</span></figcaption>
+                </figure>
+              </div>
+            </div>
+
+            <div class="project-features-breakdown">
+              <h4 class="breakdown-heading"><i data-lucide="check-square" class="icon-xs"></i> Verified System Functionality</h4>
+              <div class="modules-accordion-grid">
+                <div class="module-feature-card"><div class="mod-icon-title"><span class="mod-num">01</span><strong>Pantry Inventory Management</strong></div><p>Manage ingredients with quantities, categories, storage locations, expiry dates, status indicators, search, filtering, editing, and deletion.</p></div>
+                <div class="module-feature-card"><div class="mod-icon-title"><span class="mod-num">02</span><strong>Explainable AI Meal Recommendation</strong></div><p>Recommend meals using pantry availability, ingredient matching, expiry considerations, dietary preferences, allergies, meal type, cuisine, and maximum cooking time.</p></div>
+                <div class="module-feature-card"><div class="mod-icon-title"><span class="mod-num">03</span><strong>Explainable Recommendation Logic</strong></div><p>Provide a human-readable explanation of why a meal was selected rather than an unexplained recommendation.</p></div>
+                <div class="module-feature-card"><div class="mod-icon-title"><span class="mod-num">04</span><strong>Expiry Tracking</strong></div><p>Track fresh, expiring-soon, and expired pantry ingredients and use expiry information in the recommendation workflow.</p></div>
+                <div class="module-feature-card"><div class="mod-icon-title"><span class="mod-num">05</span><strong>Shopping List Management</strong></div><p>Manage shopping items, mark items as completed, track progress, and support shopping-list workflows.</p></div>
+                <div class="module-feature-card"><div class="mod-icon-title"><span class="mod-num">06</span><strong>Dashboard &amp; Pantry Insights</strong></div><p>Provide an overview of pantry inventory, expiring and expired items, recommendations, pantry utilisation, and notifications.</p></div>
+              </div>
+            </div>
+
+            <div class="technical-highlights-box xai-technical-highlights">
+              <h4 class="tech-box-title"><i data-lucide="cpu" class="icon-xs"></i> Technical Architecture &amp; Engineering Highlights</h4>
+              <p class="tech-box-intro">XAI Pantry is a client-side web application with an explainable rule-based recommendation engine and a localStorage-based data layer.</p>
+              <ul class="tech-highlights-list">
+                <li><i data-lucide="check" class="icon-xs"></i><span><strong>Explainable Recommendation Engine:</strong> Calculates recommendation scores with pantry matching, expiry bonuses, missing-ingredient penalties, and hard filters.</span></li>
+                <li><i data-lucide="check" class="icon-xs"></i><span><strong>Client-Side Data Layer:</strong> Uses localStorage to persist application data and user-specific records without a production backend database.</span></li>
+                <li><i data-lucide="check" class="icon-xs"></i><span><strong>CRUD Workflows:</strong> Supports creating, editing, deleting, and managing pantry and shopping-list records.</span></li>
+                <li><i data-lucide="check" class="icon-xs"></i><span><strong>Preference-Aware Filtering:</strong> Applies dietary, allergy, meal type, cuisine, and maximum cooking-time filters.</span></li>
+                <li><i data-lucide="check" class="icon-xs"></i><span><strong>Responsive Design System:</strong> Uses reusable, pantry-inspired interface components with light and dark theme support.</span></li>
+              </ul>
+            </div>
+
+            <div class="contribution-box xai-contribution-box">
+              <div class="contribution-header"><i data-lucide="user-check" class="icon-sm contrib-icon"></i><h4 class="contribution-title">My Contribution</h4></div>
+              <p class="contribution-quote">“Contributed to web application development, UI/UX implementation, recommendation-interface development, testing, debugging, and functional improvements as part of a collaborative capstone project.”</p>
+              <div class="contribution-points-grid">
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> UI/UX implementation and interface refinement</div>
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> Information organisation and pantry-management workflows</div>
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> Explainable recommendation interface development</div>
+                <div class="contrib-point"><i data-lucide="check-circle-2" class="icon-xs"></i> Feature implementation, testing, debugging, and collaborative problem-solving</div>
+              </div>
+            </div>
+
+            <div class="featured-project-actions">
+              <button class="btn btn-primary btn-lg open-modal-btn" data-project="pantry"><span>View Project Details</span><i data-lucide="layers" class="icon-sm"></i></button>
+              <a class="btn btn-secondary btn-lg" href="https://github.com/Mirmeimay/Ai-Pantry-Meal-Planner" target="_blank" rel="noopener noreferrer"><i data-lucide="github" class="icon-sm"></i><span>View GitHub Repository</span></a>
+            </div>
+          </article>
+
+          <!-- Project 3: STAMPASS -->
+          <article class="project-card stampass-project">
+            <div class="project-card-header stampass-header">
+              <div class="project-type-tag">Group Academic Project | UiTM | IMS565 | 2025–2026</div>
+              <h3 class="project-title">STAMPASS — Stamp Management &amp; Supply System</h3>
+            </div>
+
+            <div class="project-card-body stampass-body">
+              <div class="stampass-main-column">
+                <p class="project-desc">
+                  A centralized stamp management and supply system proposed for <strong>Jabatan Kastam Diraja Malaysia (JKDM)</strong>, designed to streamline tax stamp requests, approvals, service workflows, incident management, distribution tracking, audit trails, and compliance reporting.
+                </p>
+
+                <div class="project-deliverables">
+                  <div class="project-role-box">
+                    <span class="detail-label">My Role</span>
+                    <strong>System Developer</strong>
+                  </div>
+                  <ul class="deliverable-list">
+                    <li><i data-lucide="user-cog" class="icon-xs"></i> Supported system design and development activities throughout the project lifecycle.</li>
+                    <li><i data-lucide="check" class="icon-xs"></i> Translated project requirements into system functionality and supported workflow implementation.</li>
+                    <li><i data-lucide="check" class="icon-xs"></i> Assisted with system integration, testing, and collaborative problem-solving with the Project Manager and System Analyst.</li>
+                  </ul>
+                </div>
+              </div>
+
+              <div class="stampass-side-column">
+                <div class="project-modules">
+                  <h4 class="modules-title">Key System Features</h4>
+                  <div class="modules-grid">
+                    <span class="module-chip"><i data-lucide="clipboard-check" class="icon-xs"></i> Tax Stamp Requests &amp; Approvals</span>
+                    <span class="module-chip"><i data-lucide="alert-triangle" class="icon-xs"></i> Incident Management</span>
+                    <span class="module-chip"><i data-lucide="git-branch" class="icon-xs"></i> Problem &amp; Change Management</span>
+                    <span class="module-chip"><i data-lucide="layers" class="icon-xs"></i> Service Catalog &amp; Workflows</span>
+                    <span class="module-chip"><i data-lucide="truck" class="icon-xs"></i> Distribution Tracking</span>
+                    <span class="module-chip"><i data-lucide="shield-check" class="icon-xs"></i> Secure Access &amp; Audit Trails</span>
+                    <span class="module-chip"><i data-lucide="file-bar-chart" class="icon-xs"></i> Reporting &amp; Compliance Support</span>
+                  </div>
+                </div>
+
+                <div class="project-tech-stack">
+                  <span class="tech-pill">System Development</span>
+                  <span class="tech-pill">Workflow Design</span>
+                  <span class="tech-pill">System Integration</span>
+                  <span class="tech-pill">Testing</span>
+                  <span class="tech-pill">Requirements Implementation</span>
+                  <span class="tech-pill">Enterprise Information Systems</span>
+                </div>
+              </div>
+            </div>
+
+            <div class="project-card-footer">
+              <button class="btn btn-secondary btn-block open-modal-btn" data-project="stampass">
+                <span>View Project Details</span>
+                <i data-lucide="file-search" class="icon-sm"></i>
+              </button>
+            </div>
+          </article>
+        </div>
+      </div>
+    </section>
+
+    <!-- SERVICES SECTION (FREELANCE CLIENT FOCUSED) -->
+    <section class="section services-section" id="services">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">FREELANCE WEB DEVELOPMENT</span>
+          <h2 class="section-title">Services Offered</h2>
+          <div class="title-underline"></div>
+          <p class="section-intro">
+            These are the kinds of projects I can help with.
+          </p>
+        </div>
+
+        <div class="services-grid">
+          <!-- Service 1: Website Development -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i data-lucide="globe" class="icon-lg"></i>
+            </div>
+            <h3 class="service-title">Website Development</h3>
+            <p class="service-desc">
+              Creating responsive websites, personal portfolios, and small-business web presence solutions with a clear, user-friendly structure.
+            </p>
+            <ul class="service-features">
+              <li><i data-lucide="check" class="icon-xs"></i> Semantic HTML5 & clean CSS3</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Clear information hierarchy</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Fast loading & accessible structure</li>
+            </ul>
+            <a href="#contact" class="service-link" data-service="Website Development">
+              <span>Discuss Website</span> <i data-lucide="arrow-right" class="icon-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service 2: Responsive Web Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i data-lucide="smartphone" class="icon-lg"></i>
+            </div>
+            <h3 class="service-title">Responsive Web Design</h3>
+            <p class="service-desc">
+              Designing mobile-friendly layouts and user-focused interfaces that adapt smoothly across desktop, tablet, and smartphone screens.
+            </p>
+            <ul class="service-features">
+              <li><i data-lucide="check" class="icon-xs"></i> Mobile-first layout structuring</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Fluid grid and flexbox styling</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Cross-browser testing</li>
+            </ul>
+            <a href="#contact" class="service-link" data-service="Responsive Web Design">
+              <span>Discuss Responsive Design</span> <i data-lucide="arrow-right" class="icon-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service 3: Web Application Development -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i data-lucide="layout-grid" class="icon-lg"></i>
+            </div>
+            <h3 class="service-title">Web Application Development</h3>
+            <p class="service-desc">
+              Building interactive web applications, form-driven interfaces, and data-management tools with client-side functionality and practical workflows.
+            </p>
+            <ul class="service-features">
+              <li><i data-lucide="check" class="icon-xs"></i> MVC application architecture</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Dynamic form and CRUD operations</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Role-based data handling</li>
+            </ul>
+            <a href="#contact" class="service-link" data-service="Web Application Development">
+              <span>Discuss Web Application</span> <i data-lucide="arrow-right" class="icon-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service 4: Database Integration -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i data-lucide="database" class="icon-lg"></i>
+            </div>
+            <h3 class="service-title">Database Integration</h3>
+            <p class="service-desc">
+              Designing relational schemas, setting up MySQL databases, and integrating dynamic data queries into web pages.
+            </p>
+            <ul class="service-features">
+              <li><i data-lucide="check" class="icon-xs"></i> MySQL relational database setup</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Data modeling & query structuring</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Secure data input & retrieval</li>
+            </ul>
+            <a href="#contact" class="service-link" data-service="Database Integration">
+              <span>Discuss Database Integration</span> <i data-lucide="arrow-right" class="icon-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service 5: UI/UX Design -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i data-lucide="palette" class="icon-lg"></i>
+            </div>
+            <h3 class="service-title">UI/UX &amp; Interface Design</h3>
+            <p class="service-desc">
+              Refining layouts and interface components to improve usability, information flow, and visual clarity for digital experiences.
+            </p>
+            <ul class="service-features">
+              <li><i data-lucide="check" class="icon-xs"></i> Wireframing & layout prototyping</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Usability & user flow planning</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Visual consistency & typography</li>
+            </ul>
+            <a href="#contact" class="service-link" data-service="UI/UX Design">
+              <span>Discuss UI/UX</span> <i data-lucide="arrow-right" class="icon-xs"></i>
+            </a>
+          </div>
+
+          <!-- Service 6: Website Debugging & Troubleshooting -->
+          <div class="service-card">
+            <div class="service-icon-box">
+              <i data-lucide="bug" class="icon-lg"></i>
+            </div>
+            <h3 class="service-title">Website Debugging & Troubleshooting</h3>
+            <p class="service-desc">
+              Identifying, isolating, and resolving layout bugs, broken scripts, template rendering issues, and database errors.
+            </p>
+            <ul class="service-features">
+              <li><i data-lucide="check" class="icon-xs"></i> CSS/HTML layout issue resolution</li>
+              <li><i data-lucide="check" class="icon-xs"></i> PHP / Controller error debugging</li>
+              <li><i data-lucide="check" class="icon-xs"></i> Form submission & query fixes</li>
+            </ul>
+            <a href="#contact" class="service-link" data-service="Website Debugging & Troubleshooting">
+              <span>Discuss Debugging Support</span> <i data-lucide="arrow-right" class="icon-xs"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+    </section>
+
+    <!-- CONTACT SECTION -->
+    <section class="section contact-section" id="contact">
+      <div class="container">
+        <div class="section-header text-center">
+          <span class="section-subtitle">GET IN TOUCH</span>
+          <h2 class="section-title">Have an internship opportunity or a web project in mind?</h2>
+          <div class="title-underline"></div>
+          <p class="section-intro">
+            I'm currently open to internship opportunities and selected freelance web development projects. Feel free to get in touch.
+          </p>
+        </div>
+
+        <div class="contact-grid">
+          <!-- Left Column: Contact Cards & Links -->
+          <div class="contact-info-panel">
+            <div class="contact-card primary-contact-card">
+              <h3 class="contact-card-title">Direct Contact Information</h3>
+              <p class="contact-card-text">
+                I’m available for internship opportunities, student collaborations, and suitable freelance web-development work.
+              </p>
+
+              <div class="contact-methods">
+                <a href="mailto:haqem.hamdan@gmail.com" class="contact-item">
+                  <div class="contact-icon-box">
+                    <i data-lucide="mail" class="icon-md"></i>
+                  </div>
+                  <div>
+                    <span class="contact-label">Email Address</span>
+                    <span class="contact-value">haqem.hamdan@gmail.com</span>
+                  </div>
+                </a>
+
+                <div class="contact-item">
+                  <div class="contact-icon-box">
+                    <i data-lucide="map-pin" class="icon-md"></i>
+                  </div>
+                  <div>
+                    <span class="contact-label">Location / Institution</span>
+                    <span class="contact-value">UiTM, Malaysia</span>
+                  </div>
+                </div>
+
+                <div class="contact-item">
+                  <div class="contact-icon-box">
+                    <i data-lucide="clock" class="icon-md"></i>
+                  </div>
+                  <div>
+                    <span class="contact-label">Status</span>
+                    <span class="contact-value text-accent-green">Open to Internship &amp; Freelance Opportunities</span>
+                  </div>
+                </div>
+              </div>
+            </div>
+
+            <!-- Social / Profile Links -->
+            <div class="contact-card social-card">
+              <h4 class="social-title">Professional Profiles</h4>
+              <div class="social-links-grid">
+                <a href="mailto:haqem.hamdan@gmail.com" class="social-btn" aria-label="Send direct email">
+                  <i data-lucide="mail" class="icon-sm"></i>
+                  <span>Email</span>
+                </a>
+
+                <a href="#contact" class="social-btn" aria-label="Go to contact section">
+                  <i data-lucide="message-square" class="icon-sm"></i>
+                  <span>Contact</span>
+                </a>
+
+                <a href="#projects" class="social-btn" aria-label="View projects">
+                  <i data-lucide="folder-git-2" class="icon-sm"></i>
+                  <span>Projects</span>
+                </a>
+              </div>
+              <p class="social-disclaimer">
+                <i data-lucide="info" class="icon-xs"></i> I’m available for internship and freelance opportunities and can discuss project requirements by email.
+              </p>
+            </div>
+          </div>
+
+          <!-- Right Column: Interactive Inquiry Form -->
+          <div class="contact-form-panel">
+            <div class="contact-card form-card">
+              <h3 class="form-title">Send a Project Inquiry</h3>
+              <p class="form-sub">Fill out the details below to start the conversation.</p>
+
+              <form id="project-contact-form" class="project-form" novalidate>
+                <div class="form-group">
+                  <label for="client-name" class="form-label">Your Name <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i data-lucide="user" class="icon-xs input-icon"></i>
+                    <input type="text" id="client-name" name="name" class="form-control" placeholder="e.g. Sarah Lee" required>
+                  </div>
+                  <span class="error-msg" id="name-error">Please enter your name.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="client-email" class="form-label">Your Email <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <i data-lucide="mail" class="icon-xs input-icon"></i>
+                    <input type="email" id="client-email" name="email" class="form-control" placeholder="e.g. sarah@example.com" required>
+                  </div>
+                  <span class="error-msg" id="email-error">Please enter a valid email address.</span>
+                </div>
+
+                <div class="form-group">
+                  <label for="project-type" class="form-label">Service Interested In</label>
+                  <div class="input-wrapper">
+                    <i data-lucide="layers" class="icon-xs input-icon"></i>
+                    <select id="project-type" name="service" class="form-control">
+                      <option value="General Inquiry">General Website Inquiry</option>
+                      <option value="Website Development">Website Development (Small Business)</option>
+                      <option value="Responsive Web Design">Responsive Web Design / Redesign</option>
+                      <option value="Web Application Development">Web Application Development</option>
+                      <option value="Database Integration">Database Integration (MySQL)</option>
+                      <option value="UI/UX Design">UI/UX Design & Layout Planning</option>
+                      <option value="Website Debugging & Troubleshooting">Website Debugging & Troubleshooting</option>
+                    </select>
+                  </div>
+                </div>
+
+                <div class="form-group">
+                  <label for="project-message" class="form-label">Project Details / Message <span class="required">*</span></label>
+                  <div class="input-wrapper">
+                    <textarea id="project-message" name="message" class="form-control textarea" rows="4" placeholder="Briefly describe your website requirements, target timeline, or any questions..." required></textarea>
+                  </div>
+                  <span class="error-msg" id="message-error">Please enter a brief message about your project.</span>
+                </div>
+
+                <button type="submit" class="btn btn-primary btn-block submit-btn" id="submit-btn">
+                  <span>Send Message to Amir</span>
+                  <i data-lucide="send" class="icon-sm"></i>
+                </button>
+              </form>
+
+              <!-- Form Success Toast / Message -->
+              <div class="form-alert form-success" id="form-success" style="display: none;" role="alert">
+                <div class="alert-icon"><i data-lucide="check-circle-2" class="icon-md"></i></div>
+                <div>
+                  <h4 class="alert-title">Thank You!</h4>
+                  <p class="alert-desc">Your message details have been prepared. You can also reach me directly at <a href="mailto:haqem.hamdan@gmail.com" class="alert-link">haqem.hamdan@gmail.com</a>.</p>
+                </div>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </section>
+  </main>
+
+  <!-- FOOTER -->
+  <footer class="site-footer">
+    <div class="container footer-container">
+      <div class="footer-top">
+        <div class="footer-brand">
+          <a href="#hero" class="brand-logo">
+            <span class="logo-box"><img src="assets/images/amir-portrait.png" alt="Amir Haqem" /></span>
+            <span class="brand-name">Amir Haqem<span class="brand-dot">.</span></span>
+          </a>
+          <p class="footer-bio">
+            Information Management student and web developer at Universiti Teknologi MARA (UiTM), building responsive websites and practical digital solutions while open to internship and freelance opportunities.
+          </p>
+        </div>
+
+        <div class="footer-nav-col">
+          <h4 class="footer-heading">Quick Links</h4>
+          <ul class="footer-links">
+            <li><a href="#about">About</a></li>
+            <li><a href="#skills">Skills</a></li>
+            <li><a href="#education">Education</a></li>
+            <li><a href="#experience">Experience</a></li>
+            <li><a href="#projects">Projects</a></li>
+            <li><a href="#services">Services</a></li>
+            <li><a href="#contact">Contact</a></li>
+          </ul>
+        </div>
+
+        <div class="footer-contact-col">
+          <h4 class="footer-heading">Contact & Direct Inquiries</h4>
+          <p class="footer-email-link">
+            <i data-lucide="mail" class="icon-xs"></i>
+            <a href="mailto:haqem.hamdan@gmail.com">haqem.hamdan@gmail.com</a>
+          </p>
+          <p class="footer-availability">Open to internship &amp; freelance opportunities</p>
+          <a href="#contact" class="btn btn-sm btn-outline footer-work-link">
+            <span>Let's work together</span>
+            <i data-lucide="arrow-right" class="icon-xs"></i>
+          </a>
+          <div class="footer-social-row">
+            <a href="https://github.com/Mirmeimay/clinic-management-system" class="footer-social-icon" aria-label="GitHub repository" title="GitHub" target="_blank" rel="noopener noreferrer">
+              <i data-lucide="github" class="icon-xs"></i>
+            </a>
+            <a href="mailto:haqem.hamdan@gmail.com" class="footer-social-icon" aria-label="Send Email" title="Email">
+              <i data-lucide="mail" class="icon-xs"></i>
+            </a>
+          </div>
+        </div>
+      </div>
+
+      <div class="footer-bottom">
+        <p class="copyright-text">
+          &copy; <span id="current-year">2026</span> Mohamad Amir Haqem bin Hamdan. All rights reserved.
+        </p>
+        <p class="footer-tech-note">
+          Designed &amp; developed by Amir Haqem.
+        </p>
+      </div>
+    </div>
+  </footer>
+
+  <!-- PROJECT MODALS (Interactive Deep-Dive Modals) -->
+  <div class="modal-backdrop" id="project-modal" aria-hidden="true" role="dialog" aria-modal="true">
+    <div class="modal-card">
+      <button class="modal-close" id="modal-close-btn" aria-label="Close modal">
+        <i data-lucide="x" class="icon-sm"></i>
+      </button>
+      <div class="modal-body" id="modal-dynamic-content">
+        <!-- Content will be injected via JS -->
+      </div>
+    </div>
+  </div>
+
+  <div class="screenshot-lightbox" id="screenshot-lightbox" aria-hidden="true" role="dialog" aria-modal="true" aria-label="Expanded project screenshot">
+    <button class="screenshot-lightbox-close" id="screenshot-lightbox-close" type="button" aria-label="Close screenshot"><i data-lucide="x" class="icon-sm"></i></button>
+    <figure class="screenshot-lightbox-content">
+      <img id="screenshot-lightbox-image" src="" alt="">
+      <figcaption id="screenshot-lightbox-caption"></figcaption>
+    </figure>
+  </div>
+
+  <!-- Scripts -->
+  <script src="assets/js/main.js"></script>
+</body>
+</html>
